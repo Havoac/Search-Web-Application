@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,9 +13,15 @@
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	crossorigin="anonymous">
 
+<link href="<c:url value='/resources/css/style.css' />" rel="stylesheet">
+<script src="<c:url value='/resources/js/script.js' />"></script>
+
 <title>Search Application</title>
 </head>
 <body>
+	<img alt="my_image"
+		src="<c:url value="/resources/images/Naruto.png" />" >
+
 	<div class="container">
 		<div class="card mx-auto mt-5 bg-secondary" style="width: 80%">
 			<div class="card-body py-5">
